@@ -235,6 +235,22 @@ li {
     color: var(--main-color);
 }
 
+@media (min-width: 500px) {
+    .recipes__grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap:10px;
+    }
+}
+
+@media (min-width: 630px) {
+    .recipes__grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap:10px;
+    }
+}
+
 #footer {
     background-color: var(--footet-color);
 }
